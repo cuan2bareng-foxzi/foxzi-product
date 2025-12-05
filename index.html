@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOXzI - Pterodactyl Panel Hosting | Cyber Ops</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="cyber-header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://files.catbox.moe/9fienz.jpg" alt="Foxzi Logo" class="logo">
+                <span class="site-name">FOXzI.SYSTEMS</span>
+            </div>
+            <nav class="cyber-nav">
+                <a href="#products" class="nav-link blinking-nav-link">PRODUK</a>
+                <a href="#features" class="nav-link blinking-nav-link">FITUR CORE</a>
+                <a href="#blog" class="nav-link blinking-nav-link">LOGS</a>
+                <a href="#contact" class="nav-link blinking-nav-link">SUPPORT</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="nav-button blinking-nav-link admin-link" title="Admin Panel"><i class="fas fa-user-lock"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="cyber-section hero-section">
+            <h1 class="display-title">Pterodactyl Node: ONLINE</h1>
+            <p class="hero-subtitle">Akses instan ke panel hosting berteknologi tinggi. Kecepatan adalah protokol kami.</p>
+            <a href="#products" class="cta-button primary-glow-button">DEPLOY SERVER NOW</a>
+        </section>
+
+        ---
+
+        <section id="products" class="cyber-section product-section">
+            <h2 class="section-heading">DATA PACKAGES AVAILABLE</h2>
+            <div class="product-grid">
+
+                <div class="product-card" data-price="1000">
+                    <h3 class="product-title">PANEL [2GB_RAM]</h3>
+                    <p class="product-price">Rp 1.000<span class="price-suffix"> / cycle</span></p>
+                    <p class="product-desc">Entry level access. Protocol minimal.</p>
+                    <button class="buy-button outline-glow-button" 
+                        onclick="openAdminModal('Panel 2 GB RAM (Rp 1.000)')">ORDER</button>
+                    <div class="shine-effect-touch"></div>
+                </div>
+
+                <div class="product-card highlight-card" data-price="3000">
+                    <h3 class="product-title">PANEL [5GB_RAM]</h3>
+                    <p class="product-price">Rp 3.000<span class="price-suffix"> / cycle</span></p>
+                    <p class="product-desc">Recommended for high-throughput operations.</p>
+                    <button class="buy-button primary-glow-button" 
+                        onclick="openAdminModal('Panel 5 GB RAM (Rp 3.000)')">BUY INSTANT ACCESS</button>
+                    <div class="shine-effect-touch"></div>
+                </div>
+
+                <div class="product-card" data-price="7000">
+                    <h3 class="product-title">PANEL [10GB_RAM]</h3>
+                    <p class="product-price">Rp 7.000<span class="price-suffix"> / cycle</span></p>
+                    <p class="product-desc">Maximum power allocation. Stable performance.</p>
+                    <button class="buy-button outline-glow-button" 
+                        onclick="openAdminModal('Panel 10 GB RAM (Rp 7.000)')">ORDER</button>
+                    <div class="shine-effect-touch"></div>
+                </div>
+
+                <div class="product-card" data-price="10000">
+                    <h3 class="product-title">PANEL [UNLTD_RAM]</h3>
+                    <p class="product-price">Rp 10.000<span class="price-suffix"> / cycle</span></p>
+                    <p class="product-desc">Unlimited resource allocation. Core power.</p>
+                    <button class="buy-button outline-glow-button" 
+                        onclick="openAdminModal('Panel Unlimited RAM (Rp 10.000)')">ORDER</button>
+                    <div class="shine-effect-touch"></div>
+                </div>
+
+            </div>
+        </section>
+
+        ---
+
+        <section id="features" class="cyber-section feature-section">
+            <h2 class="section-heading">SYSTEM CORE FEATURES</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt large-icon"></i>
+                    <h3>Keamanan Berlapis</h3>
+                    <p>Enkripsi Level Alpha. Anti-intrusion protocols.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-lock large-icon"></i>
+                    <h3>Anti Pencurian</h3>
+                    <p>Zero-leak policy. Data integrity guaranteed.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-database large-icon"></i>
+                    <h3>Database 837+</h3>
+                    <p>Massive data reservoir for all operations.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-clock large-icon"></i>
+                    <h3>UpTime Premium</h3>
+                    <p>99.99% Operational time. System integrity.</p>
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section class="info-section">
+            <div id="blog" class="cyber-card blog-card-style">
+                <h2 class="section-heading small-heading">SYSTEM LOGS</h2>
+                <div class="blog-list">
+                    <p class="blog-link"><a href="#">[LOG 02.24] Optimasi Pterodactyl Protocol</a></p>
+                    <p class="blog-link"><a href="#">[LOG 01.15] Uptime Integrity Check Complete</a></p>
+                    <p class="blog-link"><a href="#">[LOG 12.01] Keamanan Module V3.0 Deployed</a></p>
+                </div>
+            </div>
+
+            <div id="contact" class="cyber-card support-card-style">
+                <h2 class="section-heading small-heading">CONTACT CORE SUPPORT</h2>
+                <p class="contact-text">Hubungi teknisi support kami. Respon cepat, 24/7 online.</p>
+                <div class="contact-buttons-cyber">
+                    <a href="https://wa.me/6287710238940" target="_blank" class="whatsapp-button primary-glow-button">
+                        <i class="fab fa-whatsapp"></i> ADMIN 1
+                    </a>
+                    <a href="https://wa.me/6283130830451" target="_blank" class="whatsapp-button primary-glow-button">
+                        <i class="fab fa-whatsapp"></i> ADMIN 2
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="cyber-footer">
+        <p class="watermark">Copyright foxzi All Right 2025</p>
+    </footer>
+
+    <div id="admin-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>TRANSACTION HANDLER REQUIRED</h2>
+            <p style="margin-bottom: 20px; font-weight: 400; font-size: 0.95em;">
+                Anda akan membeli: <strong id="purchase-message"></strong>. 
+                Pilih Admin untuk melayani transaksi pembayaran Anda.
+            </p>
+            <div class="contact-buttons-cyber">
+                <button class="whatsapp-button primary-glow-button admin-select-btn" data-admin="1">
+                    <i class="fab fa-whatsapp"></i> Select Admin 1
+                </button>
+                <button class="whatsapp-button primary-glow-button admin-select-btn" data-admin="2">
+                    <i class="fab fa-whatsapp"></i> Select Admin 2
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
